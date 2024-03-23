@@ -19,10 +19,39 @@ Q16:  How do you destroy the resources created by a Terraform configuration file
 
 
 
+
 ## Applied Quiz
 
+### Question: Create a cloud-init.sh file
+You are tasked with creating a file to perform initial configuration of Amazon 2023 servers.
+
+1: Update and patch all files.
+2: Install these common application.
+- wget
+- git
+- docker
+- lsof
+- jq
+
+3: Bonus Applications
+- Terraform
+- AWS CLI
+- Azure CLI
+- Python
+- PIP3
+- nginx
+  
+4: Make Configuration Changes
+- Set hostname
+- Configure firewalld to allow port 22, 443, and 80.
+
+5: Bonus Applications
+- Configure nginx
+- Create an SSL certificate and put it on the webserver
+
+
 ### Question: Creating a Data Resource for Finding an AMI
-"You are tasked with creating a data resource in Terraform to find the latest Amazon Linux 2023 AMI. Write the Terraform code to accomplish the following:
+You are tasked with creating a data resource in Terraform to find the latest Amazon Linux 2023 AMI. Write the Terraform code to accomplish the following:
 
 1: The data resource should filter for AMIs that are owned by Amazon.
 2: The data resource should filter for AMIs that are based on Amazon Linux 2023.
@@ -88,3 +117,19 @@ You are tasked with creating a new AWS EC2 instance using Terraform. The EC2 ins
 4: The instance should be associated with the security group we created above.
 5: The instance should be launched in the subnet we created above.
 6: The instance should have a tag Name with the value MyEC2Instance.
+
+
+### Question: Creating an EC2 Instance with User Data
+You are tasked with creating a new AWS EC2 instance with user data using Terraform. Write the Terraform code to accomplish the following:
+
+The EC2 instance should be in the us-west-2 region.
+The EC2 instance should be of type t2.micro.
+The EC2 instance should have user data that installs the Apache web server.
+
+
+### Question: Creating an EC2 Instance with an Attached EBS Volume
+You are tasked with creating a new AWS EC2 instance with an attached EBS volume using Terraform. Write the Terraform code to accomplish the following:
+
+The EC2 instance should be in the us-west-2 region.
+The EC2 instance should be of type t2.micro.
+The EC2 instance should have an EBS volume of 20GB attached at /dev/sdh.

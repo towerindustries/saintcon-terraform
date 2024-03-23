@@ -1,4 +1,12 @@
 # AWS CLI Commands
+
+### Question: Finding an AMI by Image ID
+"You are tasked with finding the details of a specific AMI using the AWS CLI. Write the AWS CLI command to accomplish the following:
+
+1: The AMI's image ID is ami-054aaceda83e053ee.
+2: The command should be run in the us-east-1 region."
+
+
 ## Find a specific AMI
 
 1: Get the details for the imageID *ami-054aaceda83e053ee*
@@ -22,3 +30,5 @@ aws ec2 describe-images \
     --image-ids ami-054aaceda83e053ee
     --owners amazon
 ```
+
+
