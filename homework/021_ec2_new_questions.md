@@ -1,21 +1,21 @@
 
 ## Questions
-Q1:  What is the ami argument in the aws_instance resource block, and how do you find the AMI ID for Amazon Linux 2?
-Q2:  How do you specify the instance type for an EC2 instance in a Terraform configuration file?
-Q3:  How do you associate a key pair with an EC2 instance using Terraform?
-Q4:  How do you specify a security group for an EC2 instance in Terraform?
-Q5:  How do you specify a security group for an EC2 instance in Terraform?
-Q6:  How do you specify a subnet for an EC2 instance in Terraform?
-Q7:  How do you specify the availability zone for an EC2 instance in Terraform?
-Q8:  How do you configure an EC2 instance to run a web server on port 80 using Terraform?
-Q9:  How do you attach an existing EBS volume to an EC2 instance using Terraform?
-Q10:  How do you create tags for an EC2 instance using Terraform?
-Q11:  What is the purpose of the output block in a Terraform configuration file, and how would you use it to output the public IP of the EC2 instance?
-Q12:  How do you validate the syntax of a Terraform configuration file?
-Q13:  What is the purpose of the terraform init command, and why is it necessary before deploying an EC2 instance?
-Q14:  What is the purpose of the terraform plan command, and why is it useful when deploying an EC2 instance?
-Q15:  What is the purpose of the terraform apply command, and what does it do in the context of deploying an EC2 instance?
-Q16:  How do you destroy the resources created by a Terraform configuration file, such as an EC2 instance?
+Q1:  What is the ami argument in the aws_instance resource block, and how do you find the AMI ID for Amazon Linux 2?  
+Q2:  How do you specify the instance type for an EC2 instance in a Terraform configuration file?  
+Q3:  How do you associate a key pair with an EC2 instance using Terraform?  
+Q4:  How do you specify a security group for an EC2 instance in Terraform?  
+Q5:  How do you specify a security group for an EC2 instance in Terraform?  
+Q6:  How do you specify a subnet for an EC2 instance in Terraform?  
+Q7:  How do you specify the availability zone for an EC2 instance in Terraform?  
+Q8:  How do you configure an EC2 instance to run a web server on port 80 using Terraform?  
+Q9:  How do you attach an existing EBS volume to an EC2 instance using Terraform?  
+Q10:  How do you create tags for an EC2 instance using Terraform?  
+Q11:  What is the purpose of the output block in a Terraform configuration file, and how would you use it to output the public IP of the EC2 instance?  
+Q12:  How do you validate the syntax of a Terraform configuration file?  
+Q13:  What is the purpose of the terraform init command, and why is it necessary before deploying an EC2 instance?  
+Q14:  What is the purpose of the terraform plan command, and why is it useful when deploying an EC2 instance?  
+Q15:  What is the purpose of the terraform apply command, and what does it do in the context of deploying an EC2 instance?  
+Q16:  How do you destroy the resources created by a Terraform configuration file, such as an EC2 instance?  
 
 
 
